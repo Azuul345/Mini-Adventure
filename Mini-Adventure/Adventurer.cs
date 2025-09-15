@@ -46,14 +46,14 @@ namespace Mini_Adventure
             {
                 Health = MaxHealth;
                 Mana -= 15;
-                //Console.WriteLine($"{player.Name}s helth is now at {player.Health} and has {player.Mana} left");
+                
 
             }
             else
             {
                 Health += 40;
                 Mana -= 15;
-                //Console.WriteLine($"{player.Name}s helth is now at {player.Health} and has {player.Mana} left");
+                
             }
         }
 
