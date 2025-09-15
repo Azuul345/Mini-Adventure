@@ -45,15 +45,12 @@ namespace Mini_Adventure
             else if (Health >= (MaxHealth - 40))
             {
                 Health = MaxHealth;
-                Mana -= 15;
-                
-
+                Mana -= 15;                
             }
             else
             {
                 Health += 40;
-                Mana -= 15;
-                
+                Mana -= 15;                
             }
         }
 
